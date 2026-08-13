@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/**/*.py": {
-      "excludeFiles": "{.venv-copernicus/**,.vercel/**,node_modules/**,dist/**,src/**,public/**,.git/**}"
+      "excludeFiles": "{.venv-copernicus/**,.vercel/**,node_modules/**,dist/**,src/**,public/**,.git/**,**/__pycache__/**,**/*.pyc,**/tests/**,**/test/**,**/testing/**,**/__tests__/**,**/fixtures/**,**/testdata/**,**/sample-data/**,**/docs/**,**/doc/**}"
     }
   },
   "rewrites": [

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/**/*.py": {
+      "excludeFiles": "{.venv-copernicus/**,.vercel/**,node_modules/**,dist/**,src/**,public/**,.git/**}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/kma-api/:path*",
+      "destination": "https://apihub.kma.go.kr/api/:path*"
+    },
+    {
+      "source": "/khoa-api/:path*",
+      "destination": "https://apis.data.go.kr/1192136/fcstSkinScubav2/:path*"
+    },
+    {
+      "source": "/khoa-tide-api/:path*",
+      "destination": "https://apis.data.go.kr/1192136/tideFcstHghLw/:path*"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

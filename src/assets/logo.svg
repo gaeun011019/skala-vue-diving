@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="88" viewBox="0 0 360 88" role="img" aria-labelledby="title description">
+  <title id="title">SEA GANI</title>
+  <desc id="description">SEA는 짙은 남색, GANI는 청록색으로 표현한 글자형 로고</desc>
+  <g font-family="Inter, Pretendard, 'Segoe UI', Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="3">
+    <text x="8" y="61" fill="#14384B">SEA</text>
+    <text x="124" y="61" fill="#079A9C">GANI</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+@import './base.css';
+
+:root {
+  --el-color-primary: #173c62;
+  --el-border-radius-base: 9px;
+  --el-font-family: inherit;
+}
+
+#app {
+  min-height: 100vh;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
